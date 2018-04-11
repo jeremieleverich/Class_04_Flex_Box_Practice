@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid #ccc;
+  background: #ddd;
+  margin: 0 auto;
+  height: 20rem;
+  width: 20rem;
+}
+
+.item {
+  color: white;
+  text-shadow: 0 0 0.1rem #333;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.blue {
+  background: blue;
+  height: 5rem;
+  width: 3rem;
+}
+
+.red {
+  background: red;
+  height: 2rem;
+  width: 8rem;
+}
+
+.orange {
+  background: orange;
+  height: 8rem;
+  width: 4rem;
+}
