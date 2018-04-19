@@ -1,32 +1,139 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color:black;
+}
+
+.clear {
+  clear:both;
+}
+h3 {
+  font-size:1rem;
+  padding:.25rem 0;
+}
+p {
+  font-size:.5rem;
+}
+
+main {
+  width:80%;
+  margin:0 auto;
+}
+
+header a.right, aside section a  {
+  font-size: .5em;
+  float:right;
+  color:red;
+}
+
+header h1 {
+  color:white;
+  font-size:1rem;
+  font-family: 'Roboto', sans-serif;  
+  font-weight:lighter;
+  margin:0 auto 0 4%;
+}
+
+header h6 {
+  color:darkgray;
+  font-size:.5rem;
+  margin:0 auto 2.5% 4%;
+}
+
+nav {
+  background-color:gray;
+  font-size:1em;
+  height:1.5em;
+  text-align:center;
+  margin:0 auto;
+}
+
+nav a:link, nav a:active, nav a:hover, nav a:visited {
+  font-size: .5em;
+  width:auto;    
+  display:inline-flex;
+  flex: row;
+  padding:.25% 5%;
+  color:purple;
+}
+
 .container {
-  border: 1px solid #ccc;
-  background: #ddd;
-  margin: 0 auto;
-  height: 20rem;
-  width: 20rem;
+  background-color:white;
+  margin-top:0;
+  padding:3% 0 5%;
 }
 
-.item {
-  color: white;
-  text-shadow: 0 0 0.1rem #333;
-  letter-spacing: -1px;
-  text-align: center;
+.main {
+  margin: auto 7% 1% 4%;
+  float:left;
 }
 
-.blue {
-  background: blue;
-  height: 5rem;
-  width: 3rem;
+article .main {
+  width:55%;
+  flex-flow: column;
+  order: 1;
+}
+.testimonials p {
+  font-style:italic;
+  margin-bottom:4%;
 }
 
-.red {
-  background: red;
-  height: 2rem;
-  width: 8rem;
+
+aside {
+  width:30%;
+  display:flex;
+  flex-flow:column;
+  order: 2;
+  border:1px solid grey;
+  
+  margin-top:4%
+}
+aside section {
+  width:90%;
+  margin:0 auto 1.5% auto;
+  
+}
+aside section h4, aside section h5 {
+  text-align:center;
 }
 
-.orange {
-  background: orange;
-  height: 8rem;
-  width: 4rem;
+aside section h4 {
+  font-size:.8em;
+}
+aside section h5 {
+  font-size:.6em;
+  margin-bottom:1%;
+}
+aside img {
+  width:80%;
+  margin-left: 10%;
+}
+aside section a {
+  text-align:right;
+  font-size:.5rem;
+}
+
+footer {
+  width:80%;
+  margin:2% auto;
+  color:white;
+  font-size:.4rem;
+}
+footer section {
+  width:100%;
+  margin-left:4%;
+}
+footer section:nth-of-type(2) {
+  text-align:center;
+  font-size:.4rem;
+  margin:0;
+}
+footer a {
+  font-size: 1em;
+  color:red;
 }
