@@ -18,7 +18,7 @@ h3 {
   padding:.25rem 0;
 }
 p {
-  font-size:.5rem;
+  font-size:.75rem;
 }
 
 main {
@@ -48,14 +48,13 @@ header h6 {
 
 nav {
   background-color:gray;
-  font-size:1em;
   height:1.5em;
   text-align:center;
   margin:0 auto;
 }
 
 nav a:link, nav a:active, nav a:hover, nav a:visited {
-  font-size: .5em;
+  font-size: 1em;
   width:auto;    
   display:inline-flex;
   flex: row;
